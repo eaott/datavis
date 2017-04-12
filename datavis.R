@@ -1,10 +1,10 @@
 library(dplyr)     ## Hadley Wickham's grammar of data manipulation package
 library(ggplot2)   ## Hadley Wickham's grammar of graphics plotting package
 library(GGally)    ## ggplot version of pairs plot
-#library(ggrepel)   ## non-overlapping geom_text labels
+library(ggrepel)   ## non-overlapping geom_text labels
 library(MASS)
 library(pheatmap)  ## 'pretty' clustered heatmap
-#library(robust)    ## robust regression tools
+library(robust)    ## robust regression tools
 library(scales)    ## useful for creating/adjusting ggplot scales
 
 ggplot = function(..., bw=TRUE, grid=FALSE) {
